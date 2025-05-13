@@ -2,11 +2,15 @@
 
 A modern, responsive IoT dashboard built with Flask and Chart.js for real-time sensor data visualization. Features a dark/light theme, customizable charts, and real-time updates.
 
-![Dashboard Preview](docs/dashboard.png)
+![Dashboard Preview](https://github.com/sanjaychethu/IoT-Dashboard/blob/66006f984b27cce58437206a75b65c6c57847c68/Screenshot%20(1003).png)
+
+![](https://github.com/sanjaychethu/IoT-Dashboard/blob/66006f984b27cce58437206a75b65c6c57847c68/Screenshot%20(1004).png)
+![](https://github.com/sanjaychethu/IoT-Dashboard/blob/66006f984b27cce58437206a75b65c6c57847c68/Screenshot%20(1005).png)
+![](https://github.com/sanjaychethu/IoT-Dashboard/blob/66006f984b27cce58437206a75b65c6c57847c68/Screenshot%20(1002).png)
 
 ## Features
 
-- 🌓 Dark/Light theme with system preference detection
+
 - 📊 Real-time data visualization using Chart.js
 - 📱 Fully responsive design
 - 🔄 Customizable update intervals
@@ -14,6 +18,7 @@ A modern, responsive IoT dashboard built with Flask and Chart.js for real-time s
 - 💾 SQLite database for data storage
 - 🔌 REST API for sensor data
 - 🤖 Sensor data simulation utility
+- 🌓 Dark/Light theme with system preference detection
 
 ## Tech Stack
 
@@ -21,7 +26,6 @@ A modern, responsive IoT dashboard built with Flask and Chart.js for real-time s
 - Frontend: HTML5, CSS3, JavaScript
 - Database: SQLite
 - Charts: Chart.js
-- Font: Poppins (Google Fonts)
 
 ## Quick Start
 
@@ -167,30 +171,3 @@ iot-dashboard/
 ├── Procfile               # Heroku deployment
 └── run.py                 # Application entry point
 ```
-
-### Adding New Features
-1. Backend Changes:
-   - Add routes in `routes.py`
-   - Update models in `models.py`
-   - Configure in `config.py`
-
-2. Frontend Changes:
-   - Modify templates in `templates/`
-   - Update styles in `static/css/`
-   - Add JavaScript in `static/js/`
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
-
-MIT License - feel free to use this project for your own purposes.
-
-## Support
-
-For issues and feature requests, please create an issue in the repository. 
